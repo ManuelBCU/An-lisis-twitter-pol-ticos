@@ -40,16 +40,7 @@ body {
                 color: #555;
                 font-weight: 300;
             }
-            section {
-              opacity: 0;
-              transform: translate(0, 20px);
-              transition: all 1s;
-            }
-
-            section.visible {
-              opacity: 1;
-              transform: translate(0, 0);
-            }
+            
 </style>
   <img src=https://raw.githubusercontent.com/ManuelBCU/spanishpoliticians/master/docs/Images/Pablo_Iglesias_Ahora_Madrid_2015_-_04.jpg alt="heading" class="responsive" class="fade-scroll" >
 
@@ -181,8 +172,28 @@ body {
 </div>
 </section>
 
-    
-  <script src="jquery-3.4.0.js"></script>
-  <script src="fadein.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript">
+
+            $(function() {
+
+                var documentEl = $(document),
+                    fadeElem = $('.fade-scroll');
+
+
+                documentEl.on('scroll', function() {
+                    var currScrollPos = documentEl.scrollTop();
+
+                    fadeElem.each(function() {
+                        var $this = $(this),
+                            elemOffsetTop = $this.offset().top;
+                        if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 - (currScrollPos-elemOffsetTop)/400);
+                    });
+                });
+
+            });
+
+        </script>
 
 </body>
