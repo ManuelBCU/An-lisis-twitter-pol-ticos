@@ -1,11 +1,11 @@
 # How did I do it?
 ## Spanish politicians Twitter accounts, a lexical analysis.
 ### This is the article: https://manuelbcu.github.io/An-lisis-twitter-pol-ticos/
-Spain faces its 14th general elections on April 28. In this article I analyze the twitter account of the principle candidates, locating the main topic of the campaign and finding the differences and similiarities in their discourses.
+Spain faces its 14th general elections on April 28. In this article I analyze the twitter account of the main candidates, locating the most treated topics over the campaign and finding the differences and similiarities in their discourses.
 
 ## Using the Twitter API to scrape tweets.
 
-To access the Twitter information, the first thing you need is an API key. This will allow you to locate the tweets and extract them to analyze them. Getting an api key from twitter is very [simple](https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html) and you will need it to get access to Twitter information with your Python code. Once you have your key you can start writing your code.
+To access the Twitter information, the first thing you need is an API key. This will allow you to locate the tweets and extract them to analyze them. Getting an api key from Twitter is very [simple](https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html) and you will need it to get access to Twitter information with your Python code. Once you have your key you can start writing your code.
 
 ## Writing the code on Python
 To start writing the code on Python the first thing to do is installing the needed libraries. In this case, we are going to use sys, csv and tweepy. Tweepy is a very good library to scrape information from Twitter and it has a lot of different functions. In this case we are going to extract tweets and retweets, but if you need to do something else you can get all the information on its [website](https://www.tweepy.org/).
@@ -65,11 +65,11 @@ This is an example on how it looks like on my computer.
 Now that you have done it you will have a csv file with the tweets you have scraped.
 
 ## Doing a lexical analysis.
-Once I had all the files I separated them by month, as I wanted to analyze how some words have been used along the campaign. It is a very easy thing to do with excel filters as with this code you get the time of each tweet. I used excel filter and separated them.  
+Once I had all the files I separated them by month, as I wanted to analyze how some words have been used along the campaign. It is a very easy thing to do with **Excel** filters as with this code you get the time each tweet was published. I used Excel filters and separated them.  
 For the lexical analysis I decided to use [Antconc](https://www.laurenceanthony.net/software/antconc/).  
 This tool is available both for windows, mac and linux. It allows you to find parameters and list the words in a text file. The only thing you need to do is to get the data by month and put them on different **text files** to analyze them. 
-Once I had all the words list, I separated them by month and started to search for the most interesting parameters.
+Once I had all the word lists, I separated them by month and started to search for the most interesting parameters.
 
 ## Making it visual
-For the images in the article I used **Adobe Photoshop**, choosing some of the words more repeated by each politiian. I decided to use the Twitter blue colour code for both the images and the headings to give them the same style.
+For the images in the article I used **Adobe Photoshop**, choosing some of the words more repeated by each politician. I decided to use the Twitter blue colour code for both the images and the headings to give them the same style.
 Finally, with the topics I found interesting I created different graphics with [Flourish](https://flourish.studio/) which is a very easy-to-use visualization tool. 
