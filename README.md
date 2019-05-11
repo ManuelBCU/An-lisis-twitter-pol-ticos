@@ -71,3 +71,5 @@ This tool is available both for windows, mac and linux. It allows you to find pa
 Once I had all the words list, I separated them by month and started to search for the most interesting parameters.
 
 ## Making it visual
+For the images in the article I used **Adobe Photoshop**, choosing some of the words more repeated by each politiian. I decided to use the Twitter blue colour code for both the images and the headings to give them the same style.
+Finally, with the topics I found interesting I created different graphics with [Flourish](https://flourish.studio/) which is a very easy-to-use visualization tool. 
