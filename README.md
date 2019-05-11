@@ -1,5 +1,5 @@
 # How did I do it?
-## Spanish politics twitter accounts, a lexical analysis.
+## Spanish politicians Twitter accounts, a lexical analysis.
 
 Spain faces its 14th general elections on April 18. In this article I analyze the twitter account of the principle candidates, locating the main topic of the campaign and analyzing the difference and similiarities in their discourses.
 
