@@ -6,3 +6,6 @@ Spain faces its 14th general elections on April 28. In this article I analyze th
 ## Using the Twitter API to scrape tweets.
 
 To access the Twitter information, the first thing you need is an API key. This will allow you to locate the tweets and extract them to analyze them. Getting an api key from twitter is very [simple](https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html) and you will need it to get access to Twitter information with your Python code. Once you have your key you can start writing your code.
+
+## Writing the code on Python
+
