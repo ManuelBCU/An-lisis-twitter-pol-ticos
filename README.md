@@ -62,7 +62,7 @@ if __name__ == '__main__':
 Once you have written the code. Go to **Command Prompt** and write: python   (the path to your file)   (the username of the account you want to scrape).
 This is an example on how it looks like on my computer.
 ![alt tex](https://raw.githubusercontent.com/ManuelBCU/An-lisis-twitter-pol-ticos/master/Capture.JPG)
-Once you have done it you will have a csv file with the tweets you have scraped.
+Now that you have done it you will have a csv file with the tweets you have scraped.
 
 ## Doing a lexical analysis.
 Once I had all the files I separated them by month, as I wanted to analyze how some words have been used along the campaign. It is a very easy thing to do with excel filters as with this code you get the time of each tweet. I used excel filter and separated them.  
