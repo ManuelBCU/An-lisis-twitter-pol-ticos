@@ -1,6 +1,6 @@
 # How did I do it?
 ## Spanish politicians Twitter accounts, a lexical analysis.
-
+### This is the article: https://manuelbcu.github.io/An-lisis-twitter-pol-ticos/
 Spain faces its 14th general elections on April 28. In this article I analyze the twitter account of the principle candidates, locating the main topic of the campaign and finding the differences and similiarities in their discourses.
 
 ## Using the Twitter API to scrape tweets.
