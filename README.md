@@ -58,3 +58,8 @@ if __name__ == '__main__':
     else:
         print ("Error: enter one username")
 ```
+## Running the code.
+Once you have written the code. Go to **Command Prompt** and write: python   (the path to your file)   (the username of the account you want to scrape).
+This is an example on how it looks like on my computer.
+![alt tex](
+Once you have done it you will have a csv file with the tweets you have scraped.
