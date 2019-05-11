@@ -56,10 +56,18 @@ if __name__ == '__main__':
     if len(sys.argv) == 2:
         get_tweets(sys.argv[1])
     else:
-        print ("Error: enter one username")
+        print ("Error: enter one username") 
 ```
 ## Running the code.
 Once you have written the code. Go to **Command Prompt** and write: python   (the path to your file)   (the username of the account you want to scrape).
 This is an example on how it looks like on my computer.
 ![alt tex](https://raw.githubusercontent.com/ManuelBCU/An-lisis-twitter-pol-ticos/master/Capture.JPG)
 Once you have done it you will have a csv file with the tweets you have scraped.
+
+## Doing a lexical analysis.
+Once I had all the files I separated them by month, as I wanted to analyze how some words have been used along the campaign. It is a very easy thing to do with excel filters as with this code you get the time of each tweet. I used excel filter and separated them.  
+For the lexical analysis I decided to use [Antconc](https://www.laurenceanthony.net/software/antconc/).  
+This tool is available both for windows, mac and linux. It allows you to find parameters and list the words in a text file. The only thing you need to do is to get the data by month and put them on different **text files** to analyze them. 
+Once I had all the words list, I separated them by month and started to search for the most interesting parameters.
+
+## Making it visual
