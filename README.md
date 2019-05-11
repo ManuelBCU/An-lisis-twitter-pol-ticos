@@ -61,5 +61,5 @@ if __name__ == '__main__':
 ## Running the code.
 Once you have written the code. Go to **Command Prompt** and write: python   (the path to your file)   (the username of the account you want to scrape).
 This is an example on how it looks like on my computer.
-![alt tex](
+![alt tex](https://raw.githubusercontent.com/ManuelBCU/An-lisis-twitter-pol-ticos/master/Capture.JPG)
 Once you have done it you will have a csv file with the tweets you have scraped.
